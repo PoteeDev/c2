@@ -1,0 +1,4 @@
+routes:
+  ssrf:
+    path: "ssrf"
+    method: "POST"

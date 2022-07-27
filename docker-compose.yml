@@ -1,0 +1,8 @@
+version: '3'
+services:
+  c2:
+    build:
+      context: .
+    image: explabs/potee-c2
+    volumes:
+      - ./config.yml:/usr/app/config.yml
